@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+nav{
+
+    margin: 0.6rem 6.5rem;
+    margin-top: 1rem;
+    
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    
+}
+
+nav ul li{
+    padding: 0 2rem;
+   
+    color: 
+    #334155;
+    font-weight: 500;
+   text-transform: capitalize;
+}
+
+
+.brand{
+    /*padding-right: 29rem;*/
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: orange;
+    position: absolute;
+    padding-left: 4px;
+    left: 0;
+   
+}
+
+.register{
+    background-color: #1e40af;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.line{
+    border-color: #33415518;
+    width: 86%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.3rem ;
+    text-transform: capitalize;
+    font-size: 4.5rem;
+    line-height: 6rem;
+    font-weight: bold;
+    margin-right: 8rem;
+}
+
+h1 .txt2{
+    
+    margin-left: 24rem;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding: 0rem 2rem;
+}
+h1 .img{
+    text-align: center;
+    
+   
+}
+
+.img_div{
+    background-image: url('imgs/boat.png');
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    margin: 1rem auto;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 7px 29px 5px rgba(43,43,43,0.21); 
+    box-shadow: 0px 7px 29px 5px rgba(43,43,43,0.21);
+    position: relative;
+    
+}
+
+.card{
+    height: 460px;
+    width: 360px;
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    right: -11rem;
+    margin-top: 1.5rem;
+    -webkit-box-shadow: 21px 21px 26px -1px rgba(43,43,43,0.18); 
+box-shadow: 21px 21px 26px -1px rgba(43,43,43,0.18);
+}
+
+.card h3{
+    color: #334155;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.users{
+    display: flex;
+    padding: 0rem 2.5rem;
+
+}
+
+.user{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url('imgs/ivana-cajina-dnL6ZIpht2s-unsplash\ \(1\)\ \(1\).jpg');
+    background-size: cover;
+    margin-top: 1px;
+}
+.user2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url('imgs/isaac-castillejos-VOQkzFIkF0Y-unsplash\ \(1\).jpg');
+    background-size: cover;
+    position: absolute;
+    right: 14rem;
+    border: 3px white solid;
+   
+
+}
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1e40af;
+    border: 3px white solid;
+    position: absolute;
+    right: 11.5rem;
+
+
+}
+.plus svg{
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.items{
+    display: flex;
+    
+}
+.info{
+    padding: 2rem 2.5rem;
+
+    font-size: 1.3rem;
+    color: #334155;
+    font-weight: 500;
+}
+.info svg{
+    position: absolute;
+    bottom: 18.1rem;
+    left: 25%;
+    cursor: pointer;
+}
+
+.icons{
+    padding: 2rem 7.5rem;
+    padding-right: 0;
+    display: flex;
+    
+}
+.icons i{
+    padding: 0 0.5rem;
+
+}
+#loc{
+    color: #ef4444;
+}
+#cal{
+    color: #0c4a6e
+    ;
+}
+#tg{
+    color: #4ade80;
+}
+.row{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+
+.date{
+    padding: 0rem 2.5rem;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+}
+.date .icon{
+    width: 45px;
+    height: 45px;
+    background: #d1fae595;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.date .icon svg{
+    color: #2dd4bf;
+
+}
+.date .txt{
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #334155eb;
+}
+.date .txt span{
+    font-size: 0.8rem;
+}
+
+.btns{
+    border-radius: 20px;
+    background-color: #ddd6fe70;
+    width: 80%;
+    margin: 0 auto;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns button{
+    border: 0;
+    border-radius: 10px;
+    margin: 0 1rem;
+    font-size: 1rem;
+    font-weight:800;
+    cursor: pointer;
+padding: 0.5rem 1rem;
+}
+.re{
+    background-color: #c3b5fde1;
+    color: #4C1D95;
+    
+    
+}
+.join{
+    background-color: #5B21B6;
+    color: #fff;
+    
+    
+}
+footer{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer{
+    
+    width: 999px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    
+    background: #fff;
+    align-items: center;
+    border-radius: 10px;
+    /*margin-top: -2rem;*/
+    -webkit-box-shadow: -2px 27px 29px 9px rgba(0,0,0,0.17); 
+box-shadow: -2px 27px 29px 9px rgba(0,0,0,0.17);
+}
+.btn{
+    border: 0;
+    border-radius: 10px;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+    font-weight:800;
+    cursor: pointer;
+    padding: 1.3rem 1rem;
+    background-color: #5B21B6;
+    color: #fff;
+}
+
+.footer div{
+    margin-right: 1rem;
+}
